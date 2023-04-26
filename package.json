@@ -1,0 +1,14 @@
+{
+  "name": "wtfdeployer",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "Apache-2.0",
+  "description": "Deploy ERC-20 tokens with ease on the Ethereum blockchain. Fast, cheap, and secure.",
+  "author": "Charlike Mike Reagent <dev@tunnckocore.com> (@wgw_eth)",
+  "files": [
+    "contracts"
+  ],
+  "dependencies": {
+    "burnlotto": "^0.1.1"
+  }
+}
