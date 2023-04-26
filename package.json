@@ -1,6 +1,6 @@
 {
   "name": "wtfdeployer",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
   "license": "Apache-2.0",
   "description": "Deploy ERC-20 tokens with ease on the Ethereum blockchain. Fast, cheap, and secure.",
