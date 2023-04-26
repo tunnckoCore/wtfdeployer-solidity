@@ -9,9 +9,6 @@ contract WTFDeployer {
     // the deployer of the TokenDepoyer
     address public immutable deployer = msg.sender;
 
-    // prettier-ignore
-    bytes public SIGNATURE = bytes("0x8060c5c048f639d4726a858be8a3f57dd0d8c2fa87ecad46490ca7ebaf5de59964812750fdc6e2f9a6cbcd97b1d08ffdf488aa0e040e7cef8e7425d845462af11b");
-
     event ERC20TokenCreated(
         address deployedAt,
         string name,
