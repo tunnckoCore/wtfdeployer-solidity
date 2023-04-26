@@ -84,11 +84,7 @@ contract WTFDeployer {
     }
 
     function deployBurnLotto(address token) public returns (address) {
-        BurnLotto lotto = new BurnLotto(token, SIGNATURE);
-
-        emit BurnLottoCreated(address(lotto), token, SIGNATURE);
-
-        return address(lotto);
+        return deployBurnLottoWithSignature(token, SIGNATURE);
     }
 
     function deployBurnLottoWithSignature(
